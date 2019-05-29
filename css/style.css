@@ -1,0 +1,321 @@
+@media(max-width:767px){    /* Mobile & Tablets*/
+
+}
+
+@media(min-width:768px){    /* Small Screens */
+.container {width: 670px;}
+}
+
+@media(min-width:992px){    /* Medium Screens */
+.container {width: 870px;}
+}
+
+@media(min-width:1200px){   /* Large Screens */
+.container {width: 978px;}
+}
+
+/* Start Framework */
+.container {
+margin: auto;
+
+}
+.text-center {text-align: center}
+.fl-left {float: left}
+.fl-right {float: right}
+.clear-fix {clear: both}
+.overflow {overflow: hidden}
+.list-style {list-style: none}
+.none {display: none}
+.inline {display: inline-block}
+.block{display: block}
+.inline-block{display: inline-block}
+.uppercase{text-transform: uppercase}
+.letter{letter-spacing: 3px}
+.underline{text-decoration-line: none}
+.fa-sm{
+    -webkit-transform: scale(0.7,0.7);
+    -ms-transform: scale(0.7,0.7);
+    transform: scale(0.7,0.7);
+    vertical-align: middle;
+}
+
+/* End Framework */ 
+/*-----------------------------------------START-PROJECT-----------------------------------------*/
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    }
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-family: verdana, Arial, Helvetica, sans-serif;
+    color: #525252;
+    background-color: #131313;
+    height: 4000px;
+}
+/*-------------Header--------------------
+-----------------------------------------------------------------------------*/
+header main{
+    padding-left: 11px;
+    padding-right: 11px;
+    background-color: #232323;
+    color: #DBDBDB;
+}
+header main > div{
+    padding: 15px;
+}
+header main h1{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 42px;
+    font-weight: normal
+}
+.title {
+    color: inherit
+}
+header main p{
+    margin: 0;
+    padding: 0
+}
+header main nav{
+    margin-top: 35px;
+}
+.navbar{
+    margin: 0;
+    padding: 0
+}
+.navbar li:not(:last-of-type){
+    margin-right: 35px;
+    font-size: 14px;
+}
+.navbar li a{
+    color: #fff;
+    padding: 0 3px;
+    padding-bottom: 10px;
+    
+}
+.navbar li:first-of-type a{
+    color: #FDC609;
+    border-bottom: 1px solid #FDC609
+}
+
+.navbar li:not(:first-of-type):hover a{
+    color: #FDC609;
+    border-bottom: 1px solid #FDC609;
+    transition: 0.2s
+}
+header form{
+    display: none;
+    width: 30%;
+    margin-top: 30px;
+}
+header form select{
+    width: 100%;
+    padding: 5px;
+    font-size: 14px;
+    background: transparent;
+    color: #DBDBDB
+}
+header form select option{
+    margin: 5px;
+    background: #232323;
+    color: #DBDBDB
+}
+/*----------------------------------Media Query----------------------------------*/
+@media(max-width:403px){
+    header form{
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+        padding-bottom: 20px;
+    }
+}
+@media(max-width:992px){    /* Medium Screens */
+    nav {
+        display: none
+    }
+    header form{
+        display: block
+    }
+}
+
+/*-------------ABOUT-WORK--------------------
+-----------------------------------------------------------------------------*/
+.about-work{
+    padding: 20px 0;
+}
+.about-work main article > img {
+    width: 60%;
+    height: 300px;
+}
+.about-work section {
+    width: 39%;
+    height: 300px;
+    padding: 0 10px;
+    background-color: #FDC609
+}
+.about-work section h2 {
+    margin: 15px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: normal;
+    color: #333333;
+}
+.about-work section p{
+    margin: 0;
+    padding: 5px 0;
+    line-height: 28px;
+}
+.about-work section ul{
+    margin: 0;
+    padding: 15px 0;
+    padding-top: 25px
+}
+.about-work section ul li{
+    width: 30%;
+}
+.about-work section ul li:not(:last-of-type){
+    margin-right: 5%;
+}
+.about-work section ul li img{
+    width: 100%;
+    padding: 3px;
+    border: 1px solid #131313
+}
+
+/*----------------------------------Media Query----------------------------------*/
+@media(max-width:460px){
+    .about-work main article > img {
+        height: 170px !important;
+    }
+    .about-work section{
+        height: 310px !important
+    }
+}
+@media(max-width:610px){
+    .about-work section ul{
+        padding-top: 20px !important
+    }
+}
+
+@media(max-width:767px){
+    .about-work main article > img {
+        width: 80%;
+        height: 250px;
+        margin: 0 10%;
+        margin-bottom: 20px;
+    }
+    .about-work section {
+        width: 80%;
+        height: 270px;
+        margin: 0 10%;
+        text-align: center;
+    }
+}
+
+@media(max-width:992px){    /* Medium Screens */
+    .about-work section p{
+        line-height: 20px;
+    }
+    .about-work section ul{
+        padding-top: 15px
+    }
+    .about-work section h2 {
+        margin: 10px 0;
+    }
+}
+
+/*-------------INFO1--------------------
+-----------------------------------------------------------------------------*/
+.info1 ul{
+    padding: 0;
+    margin: 0
+}
+.info1 .ul-info1 li{
+    width: 31.3333333333333%;
+    margin-top: 5px;
+}
+.info1 .ul-info1 li:not(:last-of-type){
+    margin-right: 3%
+}
+.info1 .ul-info1 li figure{
+    margin: 0;
+}
+.info1 .ul-info1 li figure h6{
+    margin: 0;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    color: #DBDBDB;
+    border-bottom: 1px dotted #525252
+}
+.info1 .ul-info1 li img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.info1 .ul-info1 li p{
+    margin: 0;
+    margin-bottom: 20px;
+    line-height: 15px;
+}
+
+.info1 .ul-info1 li a:last-of-type{
+    padding: 5px 15px;
+    color: #FDC609;
+    font-weight: bold;
+    background-color: #1E1E1E;
+}
+
+/*----------------------------------Media Query----------------------------------*/
+@media(max-width:767px) {
+    .info1 .ul-info1 li{
+        width: 80%;
+        margin: 10px 10%
+    }
+}
+
+/*-------------INFO2--------------------
+-----------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
